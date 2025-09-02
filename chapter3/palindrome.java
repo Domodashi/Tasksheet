@@ -9,16 +9,15 @@ public class palindrome {
         System.out.print("Input text: ");
 
         String output = input.nextLine();
-        StringBuilder routput = new StringBuilder(output);
-        routput.reverse();
+        StringBuilder routput = new StringBuilder(output).reverse();
+        String revOutput = routput.toString();
 
-        
-        if ( routput == input)
-            System.out.println("Palindrome");
+        if(output.equalsIgnoreCase(revOutput))
+            System.out.println("This is a palindrome");
+
         else
-            System.out.println("Not Palindrome");
+            System.out.println("This is not a palindrome");
         
-
 
         
     }

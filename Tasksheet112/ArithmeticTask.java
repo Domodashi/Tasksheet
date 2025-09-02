@@ -7,19 +7,20 @@ public class ArithmeticTask {
         int result = 1 + 2; // result is now 3
         System.out.println(result);
 
-        int mresult = result - 1; // result is now 2
-        System.out.println(mresult);
 
-        int mulresult = mresult * 2; // result is now 4
-        System.out.println(mulresult);
+        result -= 1; // result is now 2
+        System.out.println(result);
 
-        int dresult = mulresult / 2; // result is now 2
-        System.out.println(dresult);
+        result *= 2; // result is now 4
+        System.out.println(result);
 
-        int addresult = dresult + 8; // result is now 10
-        System.out.println(addresult);
+        result /= 2; // result is now 2
+        System.out.println(result);
+
+        result +=  8; // result is now 10
+        System.out.println(result);
         
-        int modresult = addresult % 7; // result is now 3
-        System.out.println(modresult);
+        result %= 7; // result is now 3
+        System.out.println(result);
     }
 }
