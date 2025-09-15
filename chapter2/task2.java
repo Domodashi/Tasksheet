@@ -8,16 +8,17 @@ class task2 {
         byte /
         short /
         int /
-        long 
+        long (di kasama)
         float (di kasama)
-        double (di kasama)
-        char) */
+        double /
+        char/ */
         boolean x = false;
         byte o = 0;
         short e = 3;
         int l = 1;
-        long two = 2;
-        String output = "H" + e + l + l + o + " " + "w" + o + "r" + l + "d" + " " + two + "." + o + " " + !x;
+        char H = 'H';
+        double two = 2;
+        String output = "" + H + e + l + l + o + " " + "w" + o + "r" + l + "d" + " " + two + " " + !x;
         System.out.println(output);
     }
 }
