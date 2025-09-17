@@ -8,8 +8,6 @@ public class Task5 {
     
     public static void main(String[] args) {
 
-      int size = 3;
-
         Scanner input = new Scanner(System.in);
         int [] arraysofnumber = new int[3];
         System.out.print("Enter 3 numbers: ");
