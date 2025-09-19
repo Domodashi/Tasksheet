@@ -22,14 +22,14 @@ public class Task6 {
 
         ArrayList <Integer> num = new ArrayList<>(); // try lang 
         
-        for(int nums : numbers)
-            num.add(nums);
+        for(int nums : numbers) 
+            num.add(nums); // adding arrays to arraylist
         
-        for (int b : num){
-            if(b == 237)
+        for (int b : num){ 
+            if(b == 237) // break if 237 met
                 break;
-                
-            if( b % 2 == 0)
+
+            if( b % 2 == 0) // if numbers has no remainders
                 System.out.println(b);
 
         }
